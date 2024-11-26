@@ -27,7 +27,7 @@ export const Contact = () => {
     e.preventDefault();
     setButtonText("Sending...");
     try {
-      let response = await fetch("https://portfolio-i96t.onrender.com/contact", {
+      let response = await fetch("https://portfolio-ir60.onrender.com/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json;charset=utf-8",
